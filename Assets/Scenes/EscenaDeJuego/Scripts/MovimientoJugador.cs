@@ -13,7 +13,6 @@ public class MovimientoJugador : MonoBehaviour
     [SerializeField] float sensibilidadY = 100f;
     float xRotation = 0f;
    [SerializeField] Camera camara;
-    // Start is called before the first frame update
     void Start()
     {
         
