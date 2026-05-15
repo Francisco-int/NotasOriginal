@@ -18,7 +18,6 @@ public class MovimientoJugador : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
     }
