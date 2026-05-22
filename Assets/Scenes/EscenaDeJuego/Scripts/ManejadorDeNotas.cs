@@ -67,6 +67,7 @@ public class ManejadorDeNotas : MonoBehaviour
 
         nota.Configurar(texto, tipoNota.material);
         nota.gameObject.SetActive(true);
+        Debug.Log($"Nota {tipoNota.material.name} activada con texto: {texto} nota libre: {nota.gameObject.name}");
     }
 
     Nota ObtenerNotaLibre()
